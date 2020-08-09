@@ -1,0 +1,10 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+B0:95:75:1D:DF:96, 2020-08-09 09:03:30, 2020-08-09 09:05:08,  4, 270, WPA2, CCMP, PSK, -72,      910,     3199,   0.  0.  0.  0,  11, Caldeira 91, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+80:58:F8:67:45:6F, 2020-08-09 09:03:30, 2020-08-09 09:05:08, -80,      159, B0:95:75:1D:DF:96,
+E8:5A:8B:B4:64:A3, 2020-08-09 09:03:31, 2020-08-09 09:05:07, -75,      208, B0:95:75:1D:DF:96,Caldeira 91
+00:CD:FE:6B:29:CE, 2020-08-09 09:03:30, 2020-08-09 09:05:03, -59,     5305, B0:95:75:1D:DF:96,
+C4:57:6E:6E:93:FC, 2020-08-09 09:03:31, 2020-08-09 09:05:08,   0,      823, B0:95:75:1D:DF:96,
+

